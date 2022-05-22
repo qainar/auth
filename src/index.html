@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>App</title>
+</head>
+<body>
+    <div class="app">
+      <div class="header">
+        <div class="sp"></div>
+        <div class="icon"></div>
+        <div class="title"></div>
+        <div id="minimizeBtn" class="win-btn btn-min">
+          <i class="fa fa-window-minimize"></i>
+        </div>
+        <div id="maximizeBtn" class="win-btn btn-max">
+          <i class="fa fa-window-maximize"></i>
+        </div>
+        <div id="closeApp" class="win-btn btn-close">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="sp"></div>
+      </div>
+    </div>
+	
+
+	<section id="section" class="section">
+		<div class="container_login">
+			<div class="wrapper">
+				<div class="img_container">
+					<img src="./img/lolfl.png" alt="" class="logo_pic">
+				</div>
+
+			<div class="wrap_container">
+				<form action="/about_page" class="form" method="POST">
+					<span class="form_title">
+						Логин пользователя
+					</span>
+
+					<div class="login_user">
+						<div class="login">
+							<input type="text" class="email" name="email" placeholder="Email" id="login" required>
+							<span class="symbol">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="login">
+							<input type="text" class="email" name="password" placeholder="Password" id="pass" required>
+							<span class="symbol">
+								<i class="fa fa-lock" aria-hidden="true"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="login_btn_container">
+						<a href="#" class="login_btn" id="submit">
+							Войти
+						</a>
+					</div>
+
+					<div class="create_acc">
+						<a href="#" class="create_link">
+							Создать аккаунт
+							<i class="fa fa-long-arrow-right" aria-hidden="true" style="padding-left: 5px;"></i>
+						</a>
+					</div>
+				
+				</form>
+			</div>
+			</div>
+		</div>
+	</section>
+
+  
+  
+  
+  
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous">
+    </script>
+    <script src="./js/appFunctions.js"></script>
+    <script src="./js/scriptForHtml.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
